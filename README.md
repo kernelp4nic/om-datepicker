@@ -4,7 +4,7 @@ om-datepicker
 An [Om](https://github.com/swannodette/om) ([ClojureScript](https://github.com/clojure/clojurescript)) datepicker component, style based on [Stefan Petre's](eyecon.ro) for [Twitter Bootstrap](getbootstrap.com).
 
 
-![alt tag](https://raw.github.com/https://github.com/kernelp4nic/om-datepicker/examples/usage.gif)
+![alt tag](https://github.com/kernelp4nic/om-datepicker/blob/master/examples/usage.gif)
 
 
 ## TODOs
