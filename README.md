@@ -32,6 +32,6 @@ $ open examples/basic/index.html
 
 ## Copyright and license
 
-Copyright © 2014 Sebastián Moreno / Inception
+Copyright © 2014 Sebastián Moreno / Intception
 
 Licensed under the EPL (see the LICENSE file).

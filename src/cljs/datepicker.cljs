@@ -203,7 +203,7 @@
                              (om/build body-component app {:state {:path path :date date}})))))
 
 (defn datepicker
-  " Datepicker public API
+  "Datepicker public API
   the cursor at the current path is updated when
   the user selects a day, otherwise we update the internal component
   state to trigger re-rendering.
