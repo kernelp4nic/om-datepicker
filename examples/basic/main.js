@@ -1,0 +1,14 @@
+goog.addDependency("base.js", ['goog'], []);
+goog.addDependency("../cljs/core.js", ['cljs.core'], ['goog.string', 'goog.object', 'goog.string.StringBuffer', 'goog.array']);
+goog.addDependency("../om/dom.js", ['om.dom'], ['cljs.core']);
+goog.addDependency("../clojure/string.js", ['clojure.string'], ['goog.string', 'cljs.core', 'goog.string.StringBuffer']);
+goog.addDependency("../cljs_time/internal/core.js", ['cljs_time.internal.core'], ['goog.string', 'cljs.core', 'goog.string.format', 'clojure.string']);
+goog.addDependency("../cljs_time/core.js", ['cljs_time.core'], ['goog.date.UtcDateTime', 'cljs.core', 'goog.i18n.TimeZone', 'cljs_time.internal.core', 'goog.date.DateTime', 'goog.date.Date']);
+goog.addDependency("../clojure/set.js", ['clojure.set'], ['cljs.core']);
+goog.addDependency("../cljs_time/format.js", ['cljs_time.format'], ['goog.string', 'cljs.core', 'cljs_time.core', 'clojure.set', 'cljs_time.internal.core', 'goog.string.format', 'clojure.string', 'goog.date']);
+goog.addDependency("../om_datepicker/utils.js", ['om_datepicker.utils'], ['cljs.core', 'cljs_time.core', 'cljs_time.format']);
+goog.addDependency("../cljs_time/coerce.js", ['cljs_time.coerce'], ['cljs.core', 'cljs_time.core', 'cljs_time.format', 'goog.date']);
+goog.addDependency("../om/core.js", ['om.core'], ['cljs.core', 'om.dom', 'goog.ui.IdGenerator']);
+goog.addDependency("../cljs/reader.js", ['cljs.reader'], ['goog.string', 'cljs.core', 'goog.string.StringBuffer']);
+goog.addDependency("../om_datepicker/datepicker.js", ['om_datepicker.datepicker'], ['cljs.core', 'om.dom', 'om_datepicker.utils', 'cljs_time.core', 'cljs_time.coerce', 'om.core', 'cljs.reader']);
+goog.addDependency("../examples/basic/core.js", ['examples.basic.core'], ['cljs.core', 'om.dom', 'om_datepicker.datepicker', 'om_datepicker.utils', 'om.core']);
